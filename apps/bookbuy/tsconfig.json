@@ -12,5 +12,17 @@
     {
       "path": "./tsconfig.editor.json"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@store/*": [
+        "src/app/store/*"
+      ],
+      "@app-components/*":["src/app/components/*"],
+      "@shared/*":["src/app/shared/*"],
+      "@services/*":["src/app/services/*"],
+      "@shared-components/*":["src/app/shared/components/*"]
+    }
+  }
 }

@@ -1,0 +1,128 @@
+[
+  {
+  "kind": "books#volume",
+  "id": "pBE5MQAACAAJ",
+  "etag": "XK2BV5/i+ks",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/pBE5MQAACAAJ",
+  "volumeInfo": {
+    "title": "Angularjs for Beginners - Learn Angularjs Step by Step in a Day",
+    "publishedDate": "2016-12-13",
+    "description": "Angularjs for beginners -Learn angularjs step by step in a day. This is the best book for the beginners to start learning angularjs . Topics covered in this book1)Setting Up the AngularJS Environment2)Using Scope Functions3)Executing Scope Methods4)Bracketed Expressions5)Understanding Dot Notation6)Controllers and Variable Scope7)Sharing Data between Multiple Controllers8)Using the controller as syntax to create controllers9)Using ng-repeat on Collections10)Using Display Filters11)Creating Custom Display Filters12)use the orderBy and limitTo filters13)Using Number and json Filters14)Using Date Filters15)Examining User Text Input16)Performing Validation17)$http service to GET server data18)Using the $http service to POST server data",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_10",
+        "identifier": "1520133545"
+      },
+      {
+        "type": "ISBN_13",
+        "identifier": "9781520133546"
+      }
+    ],
+    "readingModes": {
+      "text": false,
+      "image": false
+    },
+    "pageCount": 86,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+      "containsEpubBubbles": false,
+      "containsImageBubbles": false
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.in/books?id=pBE5MQAACAAJ&dq=angularjsforbeginners&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.co.in/books?id=pBE5MQAACAAJ&dq=angularjsforbeginners&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Angularjs_for_Beginners_Learn_Angularjs.html?hl=&id=pBE5MQAACAAJ"
+  },
+  "saleInfo": {
+    "country": "IN",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+  },
+  "accessInfo": {
+    "country": "IN",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+      "isAvailable": false
+    },
+    "pdf": {
+      "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=pBE5MQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+  },
+  "searchInfo": {
+    "textSnippet": "Angularjs for beginners -Learn angularjs step by step in a day. This is the best book for the beginners to start learning angularjs ."
+  }
+},
+{
+      "kind": "books#volume",
+      "id": "6_AqtAEACAAJ",
+      "etag": "+vnIcb2avCY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6_AqtAEACAAJ",
+      "volumeInfo": {
+        "title": "Ng-Book",
+        "subtitle": "The Complete Guide to Angular 5",
+        "authors": [
+          "Nathaniel Murray",
+          "Felipe Coury",
+          "Ari Lerner",
+          "Carlos Taborda"
+        ],
+        "publishedDate": "2018-02-06",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0991344642"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780991344642"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=6_AqtAEACAAJ&dq=ng-book&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=6_AqtAEACAAJ&dq=ng-book&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ng_Book.html?hl=&id=6_AqtAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6_AqtAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+    ]

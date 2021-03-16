@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-5 offset-4" *ngIf="searchDisplay">
+      <form class="search-form">
+        <mat-form-field class="book-full-width pt-5">
+          <mat-label>Search in Library</mat-label>
+          <input name="search" matInput #message maxlength="50" [(ngModel)]="searchValue">
+          <mat-icon role="button" class="position-abs" (click)="setSearchKey()">search</mat-icon>
+        </mat-form-field>
+      </form>
+    </div>
+  </div>
+  <div class="row pt-5">
+    <my-book-card [type]="'booklist'" (searchDisplay)="setSearchDisplay($event)"></my-book-card>
+  </div>
+</div>

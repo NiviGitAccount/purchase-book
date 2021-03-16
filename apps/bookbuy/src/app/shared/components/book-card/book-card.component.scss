@@ -1,0 +1,60 @@
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .book-img{
+    height: 80px !important;
+    width: 80px !important;
+    border-radius: 0px !important;
+  }
+
+  .description{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    -webkit-box-orient: vertical;
+  }
+
+
+
+.mat-card-header .mat-card-title {
+    font-size: 15px;
+    font-weight: 700!important;
+}
+
+.mat-card-subtitle {
+    font-size: 12px;
+}
+
+.mat-card:hover{
+    transform: scale(1.01);
+    box-shadow: -1px 4px 4px 0px rgba(0,0,0,0.8);
+}
+
+.card-ht{
+    min-height: 255px !important;
+}
+
+.star {
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  color: #d3d3d3;
+}
+.full {
+  color: red;
+}
+.half {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  color: Yellow;
+}
+
+.remv-book{
+  font-size: 20px !important;
+color: #e20074;
+right: 10px;
+}
