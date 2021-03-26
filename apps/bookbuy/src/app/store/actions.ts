@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { Book } from './models/book.model';
+import { Book } from '../common/libs/models/book.model';
 
 
 
@@ -55,4 +55,4 @@ export class AddToCollection implements Action {
     constructor(public payload: {}) { }
 }
 
-export type ActionsUnion = AddToCart | RemoveFromCart | LoadItems | GetItems | StoreSearch | AddToCollection | RemoveAllFromCart;    
+export type ActionsUnion = AddToCart | RemoveFromCart | LoadItems | GetItems | StoreSearch | AddToCollection | RemoveAllFromCart;

@@ -3,12 +3,6 @@ import { Store } from '@ngrx/store';
 
 import { GetItems, StoreSearch } from '@store/actions';
 
-interface Book {
-  name: string;
-  description: string;
-  image: string;
-}
-
 
 @Component({
   selector: 'myorh-search',

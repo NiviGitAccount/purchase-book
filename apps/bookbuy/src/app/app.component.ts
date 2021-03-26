@@ -3,14 +3,9 @@ import { MediaMatcher } from '@angular/cdk/layout';
 import { ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
 
 import { select, Store } from '@ngrx/store';
+import { NavItem } from './common/libs/models/book.model';
 
-export interface NavItem {
-  displayName: string;
-  disabled?: boolean;
-  iconName: string;
-  route?: string;
-  tag?: boolean;
-}
+
 
 @Component({
   selector: 'myorh-root',
