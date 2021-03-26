@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
-import { BookMaterialModule } from '../material.module';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
 import { MessagePopupComponent } from './components/message-popup/message-popup.component';
 
 
 @NgModule({
   declarations: [MessagePopupComponent],
   imports: [
-    BookMaterialModule
+    MatDialogModule,
+    MatButtonModule
   ],
   entryComponents: [MessagePopupComponent],
 })

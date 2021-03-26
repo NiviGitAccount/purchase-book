@@ -1,5 +1,5 @@
-import { BookStore } from '../common/libs/models/book.model';
 import { ActionsUnion, ActionTypes } from './actions';
+import { BookStore } from './models/book.model';
 
 export const initialState: BookStore = {
     items: [],

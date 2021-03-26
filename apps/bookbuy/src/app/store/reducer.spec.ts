@@ -1,4 +1,5 @@
 import { ActionTypes, AddToCart, AddToCollection, LoadItems, RemoveAllFromCart, RemoveFromCart, StoreSearch } from "./actions";
+import { BookStore } from "./models/book.model";
 import { BookReducer, initialState } from "./reducer";
 
 describe('post reducer', () => {

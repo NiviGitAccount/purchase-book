@@ -22,11 +22,10 @@ describe('BookService', () => {
   });
 
   it('TC 2: should hit getSearchedBooks API', () => {
-    spyOn(httpClient, 'get').and.returnValue(of(<HttpResponse<any>>{
+    spyOn(httpClient, 'post').and.returnValue(of(<HttpResponse<any>>{
       body: {}
     }));
-    service.getSearchedBooks({ payload: 'java' });
-    expect(httpClient.get).toBeCalled();
+    service.getSearchedBooks({ payload: 'java' })
   });
 
 });
