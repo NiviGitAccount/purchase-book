@@ -1,5 +1,5 @@
+import { Book } from "../common/libs/models/book.model";
 import { ActionTypes, AddToCart, AddToCollection, GetItems, LoadItems, RemoveAllFromCart, RemoveFromCart, StoreSearch } from "./actions";
-import { Book } from "./models/book.model";
 
 describe('AddToCart', () => {
     it('should create an action', () => {
