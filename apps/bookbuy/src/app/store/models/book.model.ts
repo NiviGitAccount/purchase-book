@@ -15,11 +15,3 @@ export interface Book {
     saleInfo: any;
     accessInfo: any;
 }
-
-export interface NavItem {
-    displayName: string;
-    disabled?: boolean;
-    iconName: string;
-    route?: string;
-    tag?: boolean;
-}
