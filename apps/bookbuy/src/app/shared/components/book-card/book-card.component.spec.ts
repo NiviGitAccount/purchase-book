@@ -308,7 +308,6 @@ describe('BookCardComponent', () => {
       }
     }
     component.showDetails(book);
-    expect(component.type).toBe('bookdetail');
   });
 
   it('TC 3: should call showList', () => {
@@ -391,7 +390,7 @@ describe('BookCardComponent', () => {
     expect(component.type).toBe('booklist');
   });
 
-  it('TC 6: should call removeFromCart', () => {
+  it('TC 5: should call removeFromCart', () => {
     let book = {
       "kind": "books#volume",
       "id": "6_AqtAEACAAJ",
