@@ -119,6 +119,7 @@ describe('SearchComponent', () => {
   it('TC 2: should toggle search field', () => {
     fixture.detectChanges();
     component.setSearchDisplay(true);
+    expect(component.searchDisplay).toBeTruthy();
   });
 
   it('TC 3: should store the search value into the store', () => {

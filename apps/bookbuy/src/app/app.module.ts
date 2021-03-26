@@ -1,17 +1,7 @@
 import { NgModule } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
-import { MatListModule } from '@angular/material/list';
-import { MatIconModule } from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
-import { MatBadgeModule } from '@angular/material/badge';
-import { MatInputModule } from '@angular/material/input';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatButtonModule } from '@angular/material/button';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatFormFieldModule } from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { StoreModule } from '@ngrx/store';
@@ -33,6 +23,7 @@ import { BillingDetailsComponent } from '@app-components/billing-details/billing
 
 import { environment } from '../environments/environment';
 import { CommondModule } from './common/common.module';
+import { BookMaterialModule } from './material.module';
 import { MessagePopupComponent } from './common/components/message-popup/message-popup.component';
 
 
@@ -50,20 +41,11 @@ import { MessagePopupComponent } from './common/components/message-popup/message
     FormsModule,
     SharedModule,
     CommondModule,
-    MatCardModule,
     BrowserModule,
-    MatIconModule,
-    MatListModule,
-    MatBadgeModule,
-    MatInputModule,
-    MatButtonModule,
     AppRoutingModule,
-    MatToolbarModule,
     HttpClientModule,
-    MatSidenavModule,
-    MatSnackBarModule,
-    MatFormFieldModule,
     ReactiveFormsModule,
+    BookMaterialModule,
     EffectsModule.forRoot([BookEffects]),
     StoreModule.forRoot({ book: BookReducer }),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production })
